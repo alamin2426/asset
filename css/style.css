@@ -1,0 +1,162 @@
+header{
+    width: 100%;
+    background-image: url('../images/Swedish-Government-Sweden.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.473);
+    overflow: hidden;
+}
+header svg{
+    margin-bottom: -30px;
+    transform: rotate(1deg);
+}
+body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap');
+
+
+
+
+.container {
+   display: block;
+   margin: auto;
+   width: 60%;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo img{
+    height: 50px;
+    padding: 15px 0 0 0;
+}
+
+nav{
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+   padding: 15px 0 0 0;
+    
+   
+}
+ul a{
+    text-decoration: none;
+    color: white;
+   
+}
+nav li{
+    padding: 0px 15px 0 7px;
+}
+.Contact{
+    background: #519d90;
+    border-radius: 25px;
+    padding: 5px 15px;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+.Contact:hover{
+    background: #3cb39d9d;
+}
+
+header .banner{
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+header .banner h1{
+    font-size: 70px;
+    font-weight: 800;
+
+}
+header .banner h4{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+/* work */
+.work-title{
+    text-align: center;
+}
+.work-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    grid-gap: 40px;
+   
+}
+.card-item{
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ transition: 0.3s;
+ padding: 20px;
+}
+.card-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 8px 8px 0px;
+}
+
+.card-item span{
+    color: rgba(8, 210, 224, 0.925);
+    font-weight: 600;
+}
+.card-item h3{
+    color: red;
+}
+.card-item p{
+    padding: 10px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.664);
+
+}
+.about{
+    display: flex;
+    
+}
+.site{
+    padding: 40px;
+}
+.site h1{
+
+}
+.site p {
+
+}
+.site img{
+    height: 300px;
+    width: 450px;
+}
+
+.about {
+    padding: 70px 0px;
+
+}
+.bite{
+    display: grid;
+    grid-template-columns: repeat(2,1fr );
+    padding: 100px;
+
+}
+.bite img {
+    height: 200px;
+    width: 250px;
+}
+.bite p{
+    text-align: justify;
+}
+.top{
+    display: flex;
+}
+    
+   
+
